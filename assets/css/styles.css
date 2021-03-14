@@ -1,0 +1,68 @@
+.goog-te-gadget .goog-te-combo {
+	padding: 10px 20px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+.banner {
+	min-height: 0px !important;
+}
+
+.single-slide.light.row-vm {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+}
+.header_top_fixed {
+	position: fixed !important;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	width: 100%;
+	box-shadow: 0 1px 5px rgb(0 0 0 / 6%);
+	border-bottom: 1px solid rgba(0,0,0,0.04);
+	animation: fadeInHeader .3s ease-in-out;
+}
+@keyframes fadeInHeader {
+	from {
+		opacity: .4;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#header .owl-item.active, #header .owl-stage{
+	height: 100%;
+}
+#header .owl-stage-outer {
+	height: 600px;
+}
+
+@media screen and (max-width: 800px) {
+	.trendingview-chart {
+		height: 200px !important;
+	}
+	#header .owl-stage-outer {
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.trendingview-chart {
+		height: 150px !important;
+	}
+	#header .owl-stage-outer {
+		height: 350px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.navbar-brand h5 span {
+		font-size: 16px;
+		line-height: 30px;
+	}
+	#header .owl-stage-outer {
+		height: 300px;
+	}
+}
